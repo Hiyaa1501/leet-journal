@@ -133,13 +133,13 @@ Contributions are welcome. If you are planning a larger change, open an issue fi
 1. Fork the repository.
 2. Create a feature branch from `master`.
 3. Make the smallest focused change that solves the problem.
-4. Run the relevant service tests before opening a pull request.
+4. Run internal module validation checks using your target operating runtime wrapper (`.\mvnw.cmd test` or `./mvnw test`) to rule out regression faults.
 5. Open a pull request with a clear description of the change and any setup or verification steps.
 
 ### What I look for
 
 - Small, reviewable pull requests.
-- Clear commit messages and PR descriptions.
+- Compose crisp commit messages.
 - Tests for new behavior when practical.
 - Documentation (future implementation) updates when behavior or setup changes.
 
