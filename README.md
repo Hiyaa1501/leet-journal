@@ -124,11 +124,10 @@ Repeat the same pattern for the other services.
 - `GET http://localhost:9000/mail/mime?to=...&subject=...&text=...`
 - `GET http://localhost:9000/ai/chat?prompt=...`
 
-## Contributing
+## Developer Documentation
 
-Contributions are welcome. If you are planning a larger change, open an issue first so the approach can be aligned before implementation.
-
-### How to contribute
+- [Contributing Guide](CONTRIBUTING.md)
+- [Project Setup Guide](SETUP.md)
 
 1. Fork the repository.
 2. Create a feature branch from `master`.
